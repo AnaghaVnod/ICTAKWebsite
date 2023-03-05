@@ -3,14 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testscripts.TestCorporateMembership">
+      <class name="com.qa.testscripts.Coursetestclass">
         <methods>
+          <include name="datsciencepageverification"/>
           <include name="afterTest"/>
+          <include name="verificationofmodelpagedownloads"/>
           <include name="OnSetup"/>
-          <include name="beforeClass"/>
-          <include name="verificationTnC"/>
+          <include name="tabverificationofdatasciencepage"/>
+          <include name="searchverificationwithinvaliddata"/>
         </methods>
-      </class> <!-- com.qa.testscripts.TestCorporateMembership -->
+      </class> <!-- com.qa.testscripts.Coursetestclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

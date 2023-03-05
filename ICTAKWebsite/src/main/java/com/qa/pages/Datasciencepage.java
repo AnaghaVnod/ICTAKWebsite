@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.qa.ict.Base;
+import com.qa.ictakbase.Base;
 
 public class Datasciencepage extends Base {
 	
